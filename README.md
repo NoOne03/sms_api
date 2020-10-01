@@ -1,5 +1,17 @@
 # sms_api
 NOTE: JSON Format<br>
-      to &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; //careTaker number<br>
-      referenceNumber &ensp;&emsp;&emsp; //for reference Number<br>
-      name &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; //for Patient name<br>
+
+| S.No.| Input           | Type       | Description          |
+| :--- |    :----        |  :----     |  :----               |
+| 1    | to              | INT(10)    | Caretaker's Number   |
+| 2    | referenceNumber | VARCHAR(4) | For reference Number |
+| 3    | name            | VARCHAR    | Patient's Name       |
+
+### Example
+```json
+{
+  "to": 9123456780,
+  "referenceNumber": "OBGY",
+  "Name": "Ankit Kushwaha"
+}
+```
